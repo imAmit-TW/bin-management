@@ -1,21 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { 
-  Search, 
-  Plus, 
-  Edit3, 
-  Trash2, 
-  PlusCircle, 
-  MinusCircle,
-  Package,
-  AlertTriangle,
-  CheckCircle,
-  Clock,
-  Filter,
-  Download,
-  RefreshCw
-} from 'lucide-react';
 import BinCard from './BinCard';
-import StatsHeader from './StatsHeader';
 import SearchAndFilterBar from './SearchAndFilterBar';
 import InventoryOperationModal from './InventoryOperationModal';
 import NotificationToast from './NotificationToast';
